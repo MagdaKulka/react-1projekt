@@ -1,0 +1,234 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+#logo {
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+}
+.menu-container {
+	background-color: #4e4e4e;
+	height: 50px;
+}
+.disable {
+	pointer-events: none;
+	cursor: not-allowed;
+}
+.menu-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 100%;
+}
+.menu {
+	list-style: none;
+	display: block;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0 24px;
+}
+.empinfo {
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	justify-content: center;
+}
+.circle1 {
+	margin-right: 60px;
+	min-width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url('./assets/kobieta.jpeg');
+	background-size: cover;
+}
+.circle2 {
+	margin-left: 60px;
+	min-width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url('./assets/prawnik.jpeg');
+	background-size: cover;
+	background-position: right;
+}
+
+.navigation {
+	height: 50px;
+	background: #4e4e4e;
+}
+.nav-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu-items {
+	gap: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.disabled {
+	cursor: not-allowed;
+}
+.offer-section {
+	background-color: dodgerblue;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.offers-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	margin-bottom: 82px;
+
+	color: #ffffff;
+}
+.header-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+section {
+	background-color: darkslateblue;
+	padding: 50px 0;
+}
+
+.offers {
+	background: darkslateblue;
+}
+h1 {
+	color: white;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.header {
+	height: calc(100vh - 50px);
+	background-image: url('./assets/Amalfi coast.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.offer-btn {
+	display: flex;
+	justify-content: center;
+	height: 41px;
+	width: 164px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: white;
+	border: 3px solid white;
+	text-decoration: none;
+	transition: 1s;
+	align-items: center;
+}
+.employee {
+	display: flex;
+	margin-bottom: 50px;
+}
+.employee2 {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: right;
+}
+.box-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 63px;
+	justify-content: center;
+}
+.offer-btn:hover {
+	background: #ffffff;
+	color: black;
+}
+.emp-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	color: blanchedalmond;
+	margin-bottom: 80px;
+}
+
+.img {
+	width: 1300px;
+	height: 1000px;
+}
+.h1 {
+	font-weight: bold;
+}
+.h2 {
+	font-weight: bold;
+}
+.fullname {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	margin-bottom: 20px;
+}
+.description {
+	color: black;
+	font-size: 18px;
+	line-height: 21px;
+}
+.new-offer {
+	height: 22px;
+	width: 22px;
+	background-color: darkblue;
+	border-radius: 50%;
+	position: absolute;
+	top: -11px;
+	left: -11px;
+}
+.box {
+	width: 150px;
+	height: 150px;
+	background-color: #eee;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+.fa-brands {
+	color: white;
+	font-size: 20px;
+}
+.shadow {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.19);
+}
+.footer-container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-paragraf {
+	font-size: large;
+	color: white;
+	font-weight: bold;
+	margin: 60px 0px 40px;
+}
+.footer {
+	background-color: darkslateblue;
+	height: 71px;
+}
+.fa-instagram {
+	margin-left: 15px;
+}
