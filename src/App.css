@@ -5,7 +5,7 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 }
-#logo {
+.logo {
 	color: white;
 	font-weight: 700;
 	font-size: 18px;

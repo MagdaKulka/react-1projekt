@@ -1,11 +1,10 @@
 import React from 'react';
-
-function App() {
+function Nav() {
 	return (
 		<div>
 			<nav className='menu-container'>
 				<div className='container menu-box'>
-					<div id='logo'>Moja firma</div>
+					<div className='logo'>Moja firma</div>
 					<ul className='menu'>
 						<li>
 							<a href='#1'>O nas</a>
@@ -25,4 +24,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Nav;
