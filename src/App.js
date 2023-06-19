@@ -1,8 +1,8 @@
 import './App.css';
-import Nav from './components/nav';
-import Header from './components/header';
+import Nav from './components/Nav';
+import Header from './components/Header';
 import EmployeeSection from './components/EmployeeSection';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import OfferSection from './components/OfferSection';
 
 function App() {
