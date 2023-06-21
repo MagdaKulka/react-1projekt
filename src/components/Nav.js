@@ -7,10 +7,10 @@ function Nav() {
 					<div className='logo'>Moja firma</div>
 					<ul className='menu'>
 						<li>
-							<a href='#1'>O nas</a>
+							<a href='#Company'>O nas</a>
 						</li>
 						<li>
-							<a href='#2'>Oferta</a>
+							<a href='#Offers'>Oferta</a>
 						</li>
 						<li>
 							<a className='disable' href=''>

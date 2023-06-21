@@ -8,7 +8,7 @@ function OfferSection() {
 		{ name: 'usługa6' },
 	];
 	return (
-		<section id='2' className='offer-section'>
+		<section id='Offers' className='offer-section'>
 			<div className='container'>
 				<h2 className='offers-title'>Czym zajmuje się nasza firma</h2>
 				<div className='box-container'>
